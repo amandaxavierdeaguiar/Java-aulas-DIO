@@ -9,6 +9,6 @@ public class NomeCompleto {
         System.out.println(nomeApelido);
     }
     public static String nomeApelido (String primeiroNome, String segundoNome, String terceiroNome){
-    return "Meu nome completo é:" + primeiroNome + " " + segundoNome + " " + terceiroNome;
+    return "Meu nome completo é: " + primeiroNome + " " + segundoNome + " " + terceiroNome;
     }
 }
