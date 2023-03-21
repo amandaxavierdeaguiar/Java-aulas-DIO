@@ -1,5 +1,6 @@
-import java.util.*;
+package CollectionsMap.src;
 
+import java.util.*;
 
 /*
  Dada os modelos dos carros e seus respectivos consumos na estrada, faça:
@@ -86,13 +87,14 @@ public class ConsumoCarro {
         System.out.println(carrosPopulares);
 
         System.out.println("Exiba todos os carros de acordo com a ordem que foram informados");
-        Map<String, Double> carrosPopulares1 = new LinkedHashMap(){{
+        Map<String, Double> carrosPopulares1 = new LinkedHashMap<>(){{
             put ("gol", 14.4);
             put ("uno", 15.6);
             put ("mobi", 16.1);
             put ("hb20", 14.5);
             put ("kwid", 15.6);
         }};
+            
         System.out.println(carrosPopulares1.toString());
         
         System.out.println("Exiba o dicionário ordenado pelo modelo");
