@@ -1,16 +1,4 @@
-package CollectionsMap.src;
-
-import java.util.Collections;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Map.EntrySet;
-import java.util.Set;
-import java.util.TreeMap;
-
-import javax.xml.transform.Source;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
+import java.util.*;
 
 
 /*
